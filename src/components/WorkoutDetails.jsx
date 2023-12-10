@@ -2,7 +2,7 @@
 
 const WorkoutDetails = ({workout}) => {
   return (
-    <div className="workpout-details">
+    <div className="workout-details">
       <h4>{workout.title}</h4>
       <p><strong>Load (kg)</strong>{workout.load}</p>
       <p><strong>reps:</strong>{workout.reps }</p>
